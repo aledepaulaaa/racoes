@@ -1,9 +1,5 @@
 /* Estilos para a seção Valores */
 @charset "UTF-8";
-@font-face {
-    font-family: 'Passion One';
-    src: url(/fonts/Passion_One/PassionOne-Bold.ttf);
-}
 
 .valores {
     margin-top: 0 auto;
@@ -19,10 +15,10 @@
 }
 
 .valores h1 {
-    font-family: 'Passion One';
+    font-family: 'Oswald', sans-serif;
     font-size: 2.5rem;
     color: #251C08;
-    font-weight: 400;
+    font-weight: 700;
     margin-bottom: 2rem;
 }
 

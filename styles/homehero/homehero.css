@@ -1,8 +1,4 @@
 @charset "UTF-8";
-@font-face {
-    font-family: 'Passion One';
-    src: url(/fonts/Passion_One/PassionOne-Bold.ttf);
-}
 
 .homehero {
     margin-top: 8rem;
@@ -10,10 +6,10 @@
 }
 
 .homeherotext h1 {
-    font-family: 'Passion One', cursive;
-    line-height: 50px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 65px;
     font-size: 4.5rem;
-    font-weight: 400;
+    font-weight: 700;
     color: #251C08;
 }
 
