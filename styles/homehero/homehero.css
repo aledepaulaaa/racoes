@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@font-face {
+    font-family: 'Passion One';
+    src: url(/fonts/Passion_One/PassionOne-Bold.ttf);
+}
 
 .homehero {
     margin-top: 8rem;
@@ -27,15 +30,14 @@
     top: -3.5rem;
 }
 
-/* Adicione estilos para telas menores (responsivo) */
 @media (max-width: 768px) {
     .homehero {
-        flex-direction: column; /* Empilhar elementos verticalmente em telas pequenas */
-        text-align: center; /* Centralizar o texto */
+        flex-direction: column;
+        text-align: center;
     }
 
     .homeherotext h1 {
-        font-size: 3rem; /* Reduzir o tamanho da fonte do título */
+        font-size: 3rem;
     }
 
     .img-homehero {

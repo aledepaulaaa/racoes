@@ -1,4 +1,9 @@
 /* Estilização da seção Metas */
+@font-face {
+    font-family: 'Passion One';
+    src: url(/fonts/Passion_One/PassionOne-Bold.ttf);
+}
+
 .metas {
     margin-top: 8rem;
     padding: 3rem 0;
@@ -11,11 +16,11 @@
 }
 
 .metas h1 {
+    font-family: 'Passion One';
     font-size: 2.5rem;
     color: #251C08;
     font-weight: 400;
     margin-bottom: 2rem;
-    /* Espaçamento inferior do título */
 }
 
 .metas p {
@@ -23,7 +28,6 @@
 }
 
 
-/* Estilos para telas menores (responsivo) */
 @media (max-width: 768px) {
     .metas {
         flex-direction: column;
@@ -33,10 +37,8 @@
 
     .metas h1 {
         margin-bottom: 1rem;
-        /* Espaçamento inferior reduzido do título */
     }
 
-    /* Ajuste para a imagem ficar acima do texto em telas pequenas */
     .metas .col-md-6 {
         margin-top: 0;
     }

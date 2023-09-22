@@ -12,25 +12,25 @@
 
 a {
     text-decoration: none;
-    color: #251C08; /* Cor do texto no cabeçalho */
-    margin-left: 20px; /* Espaçamento entre os itens do menu */
+    color: #251C08;
+    margin-left: 20px;
     font-weight: bold;
 }
 
 .navbar ul {
     list-style-type: none;
     padding: 0;
-    display: flex; /* Alinhar os itens do menu horizontalmente */
+    display: flex;
 }
 
 /* Estilos para telas menores (responsivo) */
 @media (max-width: 768px) {
     .navbar {
-        flex-direction: column; /* Alinha os itens verticalmente em telas pequenas */
-        text-align: center; /* Centraliza os itens do menu */
+        flex-direction: column;
+        text-align: center;
     }
 
     a {
-        margin: 10px 0; /* Espaçamento entre os itens do menu */
+        margin: 10px 0;
     }
 }
