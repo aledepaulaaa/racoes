@@ -52,6 +52,11 @@
         align-items: center;
         text-align: center;
     }
+
+    .footer p {
+        text-align: center;
+    }
+
     .footer{
         margin-top: 8rem;
     }
