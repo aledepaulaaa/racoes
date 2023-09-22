@@ -1,0 +1,50 @@
+/* Estilos para o bloco de história */
+.historia {
+    margin-top: 5rem;
+    padding: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.historia .container {
+    padding: 0 15px;
+    /* Espaçamento interno do container */
+}
+
+.historia h1 {
+    font-size: 2.5rem;
+    color: #251C08;
+    font-weight: 400;
+}
+
+.historia p {
+    font-size: 1.2rem;
+    color: #251C08;
+}
+
+.historia img {
+    max-width: 100%;
+    /* Garante que a imagem não exceda a largura do container */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    margin-right: 2rem;
+    /* Espaçamento à direita da imagem */
+}
+
+/* Estilos para telas menores (responsivo) */
+@media (max-width: 768px) {
+    .historia {
+        flex-direction: column;
+        /* Empilhar elementos verticalmente em telas pequenas */
+        text-align: center;
+        /* Centralizar o texto */
+    }
+
+    .historia img {
+        margin-right: 0;
+        /* Remover espaçamento à direita da imagem */
+        margin-bottom: 1rem;
+        /* Espaçamento inferior da imagem */
+    }
+}

@@ -1,0 +1,58 @@
+/* Estilização do Footer */
+.footer {
+    background-color: #251C08;
+    color: #FFFFFF;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.footer h6 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer img {
+    width: 45px;
+    margin: 0.5rem;
+}
+
+.footer p {
+    font-size: 0.875rem;
+    text-align: left;
+}
+
+/* Estilos para telas menores (responsivo) */
+@media (max-width: 768px) {
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer .row {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer .col {
+        flex: 1;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer{
+        margin-top: 8rem;
+    }
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+.homehero {
+    margin-top: 8rem;
+    display: flex;
+}
+
+.homeherotext h1 {
+    font-family: 'Passion One', cursive;
+    line-height: 50px;
+    font-size: 4.5rem;
+    font-weight: 400;
+    color: #251C08;
+}
+
+.homeherotext-p {
+    font-size: 1.5rem;
+    color: #251C08;
+}
+
+.homeherotext span {
+    font-weight: bold;
+}
+
+.img-homehero {
+    position: relative;
+    top: -3.5rem;
+}
+
+/* Adicione estilos para telas menores (responsivo) */
+@media (max-width: 768px) {
+    .homehero {
+        flex-direction: column; /* Empilhar elementos verticalmente em telas pequenas */
+        text-align: center; /* Centralizar o texto */
+    }
+
+    .homeherotext h1 {
+        font-size: 3rem; /* Reduzir o tamanho da fonte do título */
+    }
+
+    .img-homehero {
+        margin-top: 0;
+    }
+}

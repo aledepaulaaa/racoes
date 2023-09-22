@@ -1,0 +1,70 @@
+/* Estilos para a seção Valores */
+.valores {
+    margin-top: 0 auto;
+    padding: 3rem 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.valores .container {
+    padding: 0 15px;
+}
+
+.valores h1 {
+    font-size: 2.5rem;
+    color: #251C08;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+/* Estilização dos cards */
+.valores .card {
+    background-color: #FCB304;
+    color: #FFF;
+    border: none;
+    padding: 1rem;
+    border-top-right-radius: 28px;
+    border-top-left-radius: 28px;
+    max-height: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.valores .card-body {
+    margin-top: 2.5rem;
+    margin-bottom: -1rem;
+    background-color: #251C08;
+    font-size: 16px;
+    border-top-right-radius: 28px;
+    border-top-left-radius: 28px;
+}
+
+.card-body{
+    height: 100%;
+}
+
+/* Estilos para telas menores (responsivo) */
+@media (max-width: 768px) {
+    .valores {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .valores h1 {
+        margin-bottom: 1rem;
+    }
+
+    .valores .card {
+        width: 100%;
+        margin: 0.5rem 0;
+        height: 100%;
+    }
+}
